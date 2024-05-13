@@ -16,10 +16,12 @@ When you click the **Knit** button a document will be generated that includes bo
 
 
 
-```{r calculations, echo=FALSE}
-2+3
-6*2
-67+89
+```{r echo=FALSE}
+x <- 1:10
+y <- x^2
+
+# Plot the data
+plot(x, y, main = "Simple Plot", xlab = "X", ylab = "Y")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
